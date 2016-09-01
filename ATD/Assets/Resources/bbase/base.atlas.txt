@@ -1,0 +1,41 @@
+
+base.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 2
+  size: 360, 198
+  orig: 360, 198
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 2, 202
+  size: 402, 232
+  orig: 402, 232
+  offset: 0, 0
+  index: -1
+Layer 2 copy
+  rotate: false
+  xy: 406, 111
+  size: 242, 118
+  orig: 242, 118
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 406, 231
+  size: 404, 203
+  orig: 404, 203
+  offset: 0, 0
+  index: -1
+Layer 4 copy
+  rotate: false
+  xy: 812, 287
+  size: 198, 147
+  orig: 198, 147
+  offset: 0, 0
+  index: -1

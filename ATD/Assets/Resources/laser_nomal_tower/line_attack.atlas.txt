@@ -1,0 +1,20 @@
+
+line_attack.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: false
+  xy: 2, 2
+  size: 221, 211
+  orig: 221, 211
+  offset: 0, 0
+  index: -1
+Layer 2 copy 6
+  rotate: false
+  xy: 225, 121
+  size: 51, 92
+  orig: 51, 92
+  offset: 0, 0
+  index: -1

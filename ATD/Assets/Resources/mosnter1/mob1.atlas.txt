@@ -1,0 +1,69 @@
+
+mob1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1 copy 10
+  rotate: false
+  xy: 2, 2
+  size: 77, 105
+  orig: 77, 105
+  offset: 0, 0
+  index: -1
+Layer 1 copy 11
+  rotate: false
+  xy: 150, 90
+  size: 57, 56
+  orig: 57, 56
+  offset: 0, 0
+  index: -1
+Layer 1 copy 12
+  rotate: false
+  xy: 348, 181
+  size: 54, 72
+  orig: 54, 72
+  offset: 0, 0
+  index: -1
+Layer 1 copy 13
+  rotate: false
+  xy: 229, 166
+  size: 61, 87
+  orig: 61, 87
+  offset: 0, 0
+  index: -1
+Layer 1 copy 14
+  rotate: false
+  xy: 150, 148
+  size: 77, 105
+  orig: 77, 105
+  offset: 0, 0
+  index: -1
+Layer 1 copy 6
+  rotate: false
+  xy: 2, 109
+  size: 146, 144
+  orig: 146, 144
+  offset: 0, 0
+  index: -1
+Layer 1 copy 7
+  rotate: false
+  xy: 404, 197
+  size: 57, 56
+  orig: 57, 56
+  offset: 0, 0
+  index: -1
+Layer 1 copy 8
+  rotate: false
+  xy: 292, 181
+  size: 54, 72
+  orig: 54, 72
+  offset: 0, 0
+  index: -1
+Layer 1 copy 9
+  rotate: false
+  xy: 81, 20
+  size: 61, 87
+  orig: 61, 87
+  offset: 0, 0
+  index: -1
