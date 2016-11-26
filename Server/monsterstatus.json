@@ -1,0 +1,33 @@
+{
+  "monsterstatus": {
+    "data": [
+      {
+        "monster_type": 0,
+        "hp": 300,
+        "atk": 5,
+        "atk_speed": 1,
+        "move_speed": 1.5,
+        "area": 2,
+        "drop_gold": 10
+      },
+      {
+        "monster_type": 1,
+        "hp": 500,
+        "atk": 7,
+        "atk_speed": 0.5,
+        "move_speed": 1.2,
+        "area": 2,
+        "drop_gold": 20
+      },
+      {
+        "monster_type": 2,
+        "hp": 700,
+        "atk": 50,
+        "atk_speed": 3,
+        "move_speed": 1,
+        "area": 2,
+        "drop_gold": 30
+      }
+    ]
+  }
+}
