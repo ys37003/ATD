@@ -27,11 +27,7 @@ public class MonsterDataManager : MonoBehaviour
 
     void Awake()
     {
-        monsterDic = new Dictionary<E_MonsterType, MonsterData>();
-
-        monsterDic.Add(E_MonsterType.A, new MonsterData(E_MonsterType.A, 300, 5,  1,    1.5f, 2, 10));
-        monsterDic.Add(E_MonsterType.B, new MonsterData(E_MonsterType.B, 500, 7,  0.5f, 1.2f, 2, 20));
-        monsterDic.Add(E_MonsterType.C, new MonsterData(E_MonsterType.C, 700, 50, 3,    1.0f, 2, 30));
+        monsterDic = NetworkManager.Instance.GetMonsterDataDic();
     }
 
     public MonsterData GetMonsterData(E_MonsterType type)

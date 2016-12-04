@@ -6,6 +6,8 @@ public class MonsterRespawn : MonoBehaviour
 {
     public List<MonsterRespawnData> RespawnDataList = new List<MonsterRespawnData>();
 
+    public bool isEnd = false;
+
     void Start()
     {
         StartCoroutine("Respawn");
@@ -46,7 +48,10 @@ public class MonsterRespawn : MonoBehaviour
                 listCount++;
 
                 if (RespawnDataList.Count == listCount)
+                {
+                    isEnd = true;
                     break;
+                }
 
                 data = RespawnDataList[listCount];
             }

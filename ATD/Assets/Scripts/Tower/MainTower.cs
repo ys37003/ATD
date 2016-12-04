@@ -15,4 +15,11 @@ public class MainTower : Tower
         base.AttackEnd();
         goEffect.SetActive(false);
     }
+
+    public override void DestoryTower()
+    {
+        base.DestoryTower();
+
+        GamaManager.Instance.GameEnd(false);
+    }
 }

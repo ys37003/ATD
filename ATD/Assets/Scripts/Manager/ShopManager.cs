@@ -36,44 +36,7 @@ public class ShopManager : MonoBehaviour
 
     void Awake()
     {
-        TowerCostDIc = new Dictionary<E_TowerType, List<TowerSimpleData>>();
-
-        List<TowerSimpleData> basicTowerList = new List<TowerSimpleData>();
-        basicTowerList.Add(new TowerSimpleData(E_TowerType.CannonTower1,  E_TileSize.Tile1, 100));
-        basicTowerList.Add(new TowerSimpleData(E_TowerType.LaserTower1,   E_TileSize.Tile1, 100));
-        basicTowerList.Add(new TowerSimpleData(E_TowerType.FlameTower1,   E_TileSize.Tile4, 200));
-        //basicTowerList.Add(new TowerSimpleData(E_TowerType.AssistTower1,  E_TileSize.Tile4, 200));
-        basicTowerList.Add(new TowerSimpleData(E_TowerType.DefenseTower1, E_TileSize.Tile4, 100));
-
-        List<TowerSimpleData> cannonTowerList = new List<TowerSimpleData>();
-        cannonTowerList.Add(new TowerSimpleData(E_TowerType.CannonTower2, E_TileSize.Tile1, 200));
-        cannonTowerList.Add(new TowerSimpleData(E_TowerType.CannonTower3, E_TileSize.Tile4, 300));
-
-        List<TowerSimpleData> laserTowerList = new List<TowerSimpleData>();
-        //laserTowerList.Add(new TowerSimpleData(E_TowerType.LaserTower2, E_TileSize.Tile4, 300));
-        laserTowerList.Add(new TowerSimpleData(E_TowerType.LaserTower3, E_TileSize.Tile9, 300));
-
-        List<TowerSimpleData> flameTowerList = new List<TowerSimpleData>();
-        flameTowerList.Add(new TowerSimpleData(E_TowerType.FlameTower2, E_TileSize.Tile4, 300));
-        flameTowerList.Add(new TowerSimpleData(E_TowerType.FlameTower3, E_TileSize.Tile9, 300));
-
-        List<TowerSimpleData> assistTowerList = new List<TowerSimpleData>();
-        assistTowerList.Add(new TowerSimpleData(E_TowerType.AssistTower2, E_TileSize.Tile4, 300));
-        assistTowerList.Add(new TowerSimpleData(E_TowerType.AssistTower3, E_TileSize.Tile4, 300));
-
-        List<TowerSimpleData> defenseTower1List = new List<TowerSimpleData>();
-        defenseTower1List.Add(new TowerSimpleData(E_TowerType.DefenseTower2, E_TileSize.Tile4, 300));
-
-        List<TowerSimpleData> defenseTower2List = new List<TowerSimpleData>();
-        //defenseTower2List.Add(new TowerSimpleData(E_TowerType.DefenseTower3, E_TileSize.Tile4, 300));
-
-        TowerCostDIc.Add(E_TowerType.BasicTower,    basicTowerList);
-        TowerCostDIc.Add(E_TowerType.CannonTower1,  cannonTowerList);
-        TowerCostDIc.Add(E_TowerType.LaserTower1,   laserTowerList);
-        TowerCostDIc.Add(E_TowerType.FlameTower1,   flameTowerList);
-        TowerCostDIc.Add(E_TowerType.AssistTower1,  assistTowerList);
-        TowerCostDIc.Add(E_TowerType.DefenseTower1, defenseTower1List);
-        TowerCostDIc.Add(E_TowerType.DefenseTower2, defenseTower2List);
+        TowerCostDIc = NetworkManager.Instance.GetShopDataDic();
 
         foreach (TowerInfo info in towerinfoList)
         {
